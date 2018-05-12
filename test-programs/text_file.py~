@@ -1,0 +1,10 @@
+# This is a program to read text file to a list.
+
+def text_read(filename):
+    text = []
+    with open(filename, 'r') as f:
+        temp = f.readline()
+        while temp != '':
+            text.append(temp)
+            temp = f.readline()
+    return text
