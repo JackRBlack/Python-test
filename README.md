@@ -1,2 +1,2 @@
 # Python-test
-python learning and testing
+This is a repository for Python learning and testing.
